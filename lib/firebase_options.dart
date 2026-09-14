@@ -56,7 +56,6 @@ class DefaultFirebaseOptions {
     projectId: 'flutter-firebase-app-ab2d1',
     storageBucket: 'flutter-firebase-app-ab2d1.firebasestorage.app',
   );
-
   static const FirebaseOptions ios = FirebaseOptions(
     apiKey: 'AIzaSyDlYaQoypKxKMlGti-C1TXalWn-4mbaQgk',
     appId: '1:180650842554:ios:cf50107d869d6905c16583',
@@ -65,7 +64,6 @@ class DefaultFirebaseOptions {
     storageBucket: 'flutter-firebase-app-ab2d1.firebasestorage.app',
     iosBundleId: 'com.example.flutterFirebase',
   );
-
   static const FirebaseOptions macos = FirebaseOptions(
     apiKey: 'AIzaSyDlYaQoypKxKMlGti-C1TXalWn-4mbaQgk',
     appId: '1:180650842554:ios:cf50107d869d6905c16583',
