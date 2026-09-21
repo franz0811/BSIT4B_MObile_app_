@@ -24,7 +24,11 @@ class _StudentPageState extends State<StudentPage> {
     return Scaffold(
       appBar: AppBar(title: Text("Student Page"),),
       body: Column(children: [
-        ElevatedButton(onPressed: saveTestData, child: Text('Save Data'))
+        FilledButton(
+  onPressed: saveTestData,
+  child: const Text('Save Test Student'),
+)
+
       ],
       ),
     );
